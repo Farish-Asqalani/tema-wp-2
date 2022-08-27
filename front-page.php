@@ -1,3 +1,4 @@
+<!-- memanggil footer site -->
 <?= get_header() ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -25,10 +26,12 @@
         </ul> -->
     </div>
     <div class="kategori">
+        <!-- memanggil sidebar -->
         <h2><?= wp_list_categories() ?></h2>
     </div>
     </div>
 </body>
 </html>
 
+<!-- memanggil footer side -->
 <?= get_footer() ?>

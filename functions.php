@@ -5,6 +5,7 @@ register_nav_menus(["header" => "navbar"]);
 
 // register_sidebar_widget()
 
+// register side_bar
 function widget_setup (){
     register_sidebar(
         ["name" => "sidebar1"],
